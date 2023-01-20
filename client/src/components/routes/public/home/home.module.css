@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--color-home);
+    height: 95vh;
+}
+
+.logo {
+    width: 1128px;
+    height: 708px;
+}
+
+.containerImg {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.containerButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.btn {
+    background-color: rgb(253, 55, 55);
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.botton:hover {
+    cursor: pointer;
+}
+
+@media (min-width:1200px) {
+    .container {
+        justify-content: flex-start;
+        align-items: center;
+    }
+}

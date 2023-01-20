@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.namePokemon {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 50px;
+}
+
+.typesPokemon {
+    font-family: fantasy;
+    color: rgb(253, 55, 55);
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    line-height: 50px;
+}
+
+.idPokemon {
+    font-family: fantasy;
+    font-size: 25px;
+    color: rgb(77, 77, 247);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.typeName {
+    margin-left: 10px;
+}
+
+.img {
+    width: 500px;
+    height: 500px;
+}
+
+.imagenPokemon {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.containerIzq {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.containerDer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: solid black;
+    border-radius: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+.descripcion {
+    font-family: fantasy;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    word-spacing: 5px;
+    line-height: 30px;
+}

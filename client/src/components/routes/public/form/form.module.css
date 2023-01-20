@@ -1,0 +1,51 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.styleInput {
+    margin: 10px;
+}
+
+.buttonCrear {
+    background-color: rgb(253, 55, 55);
+    border: none;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 4px;
+    width: 60px !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.labelError {
+    color: red;
+    font-weight: bold;
+}
+
+.containerTypePokemon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.typePokemonLabel {
+    margin: 5px;
+    font-weight: bold;
+}

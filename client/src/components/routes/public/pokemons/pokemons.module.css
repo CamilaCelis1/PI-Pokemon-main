@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.cargando {
+    width: 100%;
+    text-align: center;
+}
+
+.pokemonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.optionStyle {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.optionStyle:hover {
+    cursor: pointer;
+}
+
+.search {
+    margin: 10px;
+}
+
+.btn {
+    background-color: rgb(253, 55, 55);
+    border: none;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 5px;
+}
+
+.btnForm {
+    background-color: rgb(253, 55, 55);
+    border: none;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 5px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.containerButtonsPrevNext{ 
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}

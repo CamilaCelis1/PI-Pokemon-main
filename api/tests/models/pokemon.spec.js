@@ -17,6 +17,14 @@ describe('Pokemon model', () => {
       it('should work when its a valid name', () => {
         Pokemon.create({ name: 'Pikachu' });
       });
+      it('should throw an error if ID is null', (done) => {
+        Pokemon.create({})
+          .then(() => done(new Error('It requires a valid ID')))
+          .catch(() => done());
+      });
+      it('should work when its a valid ID', () => {
+        Pokemon.create({ ID: 1 });
+      });
     });
   });
 });

@@ -1,0 +1,35 @@
+.btn {
+    border-radius: 6px;
+    border: 1px solid rgb(253, 55, 55);
+    background-color: rgb(253, 55, 55);
+    color: white;
+    padding: 2px;
+}
+
+.container {
+    width: 170px;
+    height: 258px;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.namePokemon {
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+.typesPokemon {
+    font-family: fantasy;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.typeName {
+    margin-left: 10px;
+}
